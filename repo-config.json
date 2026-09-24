@@ -1,0 +1,11 @@
+{
+  "name": "json-toolkit",
+  "description": "Format, minify, validate, sort, query, and compare JSON files from one command-line tool.",
+  "topics": [
+    "python",
+    "json",
+    "cli",
+    "developer-tools",
+    "data-processing"
+  ]
+}

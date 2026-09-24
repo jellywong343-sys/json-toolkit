@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "json-toolkit"
+version = "1.0.0"
+description = "Format, minify, validate, sort, query, and compare JSON files from one command-line tool."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "jellywong343-sys" }]
+dependencies = []
+keywords = ["python","json","cli","developer-tools","data-processing"]
+
+[project.scripts]
+json-toolkit = "json_toolkit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
